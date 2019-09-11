@@ -93,3 +93,13 @@ def test_lambda():
         pass
     except DefaultCase:
         raise AssertionError
+
+def test_default_case():
+    try:
+        match(0)
+    except Case(1):
+        raise AssertionError
+    except Case(2):
+        raise AssertionError
+    except DefaultCase:
+        pass
