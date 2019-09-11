@@ -2,7 +2,7 @@ from try_match import __version__, DefaultCase, Case, match
 
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert __version__ == '0.1.1'
 
 
 def test_int_value():

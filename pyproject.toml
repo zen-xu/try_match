@@ -1,8 +1,23 @@
 [tool.poetry]
 name = "try_match"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pattern matching"
 authors = ["Zhengyu Xu <zen-xu@outlook.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/zen-xu/try_match"
+
+keywords = [
+    "pattern matching",
+    "switch",
+    "exception",
+]
+
+classifiers = [
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 2.7',
+]
 
 [tool.poetry.dependencies]
 python = "^2.7"
