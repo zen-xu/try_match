@@ -6,6 +6,8 @@ authors = ["Zhengyu Xu <zen-xu@outlook.com>"]
 license = "Apache-2.0"
 repository = "https://github.com/zen-xu/try_match"
 
+readme = "README.md"
+
 keywords = [
     "pattern matching",
     "switch",
@@ -17,10 +19,11 @@ classifiers = [
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3',
 ]
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "^2.7 || ^3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
