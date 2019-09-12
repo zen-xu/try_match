@@ -49,9 +49,9 @@ except Case(range(9, 20)):
 ### match lambda
 try:
     match(2)
-except Case(lambda x > 5):
+except Case(lambda x: x > 5):
     raise
-except Case(lambda x < 5):
+except Case(lambda x: x < 5):
      print("x < 5")
      
 # => "x < 5"
