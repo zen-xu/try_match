@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "try_match"
-version = "0.1.1"
+version = "0.2.0"
 description = "Pattern matching"
 authors = ["Zhengyu Xu <zen-xu@outlook.com>"]
 license = "Apache-2.0"
